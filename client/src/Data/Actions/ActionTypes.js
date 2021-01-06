@@ -1,0 +1,36 @@
+// Auth Action Types
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS'
+export const REGISTER_FAIL = 'REGISTER_FAIL'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_FAIL = 'LOGIN_FAIL'
+export const ALL_USERS = 'ALL_USERS'
+export const ALL_USERS_FAIL = 'ALL_USERS_FAIL'
+export const USER_LOADED = 'USER_LOADED'
+export const AUTH_ERROR = 'AUTH_ERROR'
+export const LOGOUT = 'LOGOUT'
+export const SET_LOADING = 'SET_LOADING'
+
+
+// Category Action Types
+export let GET_ITEMS = 'GET_ITEMS'
+export let ADD_ITEMS = 'ADD_ITEMS'
+export let UPDATE_ITEM = 'UPDATE_ITEM'
+export let DELETE_ITEMS = 'DELETE_ITEMS'
+export let ITEMS_LOADING = 'ITEMS_LOADING'
+export let GET_FAIL = 'GET_FAIL'
+export let ADD_FAIL = 'ADD_FAIL'
+export let DELETE_FAIL = 'DELETE_FAIL'
+export let UPDATE_FAIL = 'UPDATE_FAIL'
+
+
+// Product Action Types
+export let GET_PRODUCTS = 'GET_PRODUCTS'
+export let PRODUCTS_LOADED = 'PRODUCTS_LOADED'
+export let ADD_PRODUCTS = 'ADD_PRODUCTS'
+export let DELETE_PRODUCTS = 'DELETE_PRODUCTS'
+export let PRODUCTS_LOADING = 'PRODUCTS_LOADING'
+export let PRODUCT_GET_FAIL = 'PRODUCT_GET_FAIL'
+export let PRODUCT_ADD_FAIL = 'PRODUCT_ADD_FAIL'
+export let PRODUCT_DELETE_FAIL = 'PRODUCT_DELETE_FAIL'
+export let PRODUCT_UPDATE_FAIL = 'PRODUCT_UPDATE_FAIL'
+
